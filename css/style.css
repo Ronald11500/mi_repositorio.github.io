@@ -94,3 +94,9 @@ img.hero {
   margin-left: 80px;
   padding: auto;
 }
+.bottons_of_sevicio_and_contactos {
+  padding: 20px;
+  justify-content: end;
+  display: flex;
+  gap: 20px;
+}
