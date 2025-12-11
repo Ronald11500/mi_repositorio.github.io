@@ -90,3 +90,12 @@ h1 {
   border-radius: 10px;
   border: 2px solid #ddd;
 }
+.certificado img {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain; /* o 'cover' si quieres que recorte */
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  display: block;
+}
