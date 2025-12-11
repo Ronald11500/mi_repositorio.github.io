@@ -99,3 +99,12 @@ h1 {
   border: 2px solid #ddd;
   display: block;
 }
+.imag {
+  width: 100%;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain; /* o 'cover' si quieres que recorte */
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  display: block;
+}
