@@ -59,3 +59,34 @@ h1 {
     max-width: 90%;
   }
 }
+.certificados {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.certificados-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.certificado {
+  width: 250px;
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.certificado:hover {
+  transform: translateY(-5px);
+}
+
+.certificado img {
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
